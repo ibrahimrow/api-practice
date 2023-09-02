@@ -33,7 +33,7 @@ const loadVideo = async (categoryId) => {
 
   data.data.forEach((videos) => {
     const div = document.createElement('div');
-    div.innerHTML = ` <div class="card card-compact w-96 bg-base-100 shadow-xl">
+    div.innerHTML = ` <div class="card card-compact  bg-base-100 shadow-xl">
     <figure><img src="${videos.thumbnail}"/></figure>
     <div class="card-body">
 
